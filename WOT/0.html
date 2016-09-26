@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Anonymous" />
+  <title>坦克世界入门</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="WOT_files/reveal.js-3.3.0/css/reveal.css"/>
+
+
+
+<link rel="stylesheet" href="WOT_files/reveal.js-3.3.0/css/theme/sky.css" id="theme">
+
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'WOT_files/reveal.js-3.3.0/css/print/pdf.css' : 'WOT_files/reveal.js-3.3.0/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+    <!--[if lt IE 9]>
+    <script src="WOT_files/reveal.js-3.3.0/lib/js/html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">坦克世界入门</h1>
+    <h2 class="author">Anonymous</h2>
+    <h3 class="date">2016年9月26日</h3>
+</section>
+
+<section class="slide level2">
+<h1>环境配置</h1>
+<ul>
+<li class="fragment">去坦克世界官网下载安装游戏<a href="http://wot.kongzhong.com/wot.html" class="uri">http://wot.kongzhong.com/wot.html</a></li>
+<li class="fragment">安装多玩坦克世界盒子<a href="http://wot.duowan.com/hezi/" class="uri">http://wot.duowan.com/hezi/</a></li>
+<li class="fragment">打开盒子，安装插件</li>
+</ul>
+</section>
+<section><section class="titleslide slide level1"><h1>游戏介绍</h1></section><section class="slide level2">
+<h1>游戏界面说明</h1>
+<p><small>略</small></p>
+</section><section class="slide level2">
+<h1>基本操作</h1>
+<ul>
+<li class="fragment">按照游戏自带的</li>
+<li class="fragment">参加新兵训练营</li>
+<li class="fragment">熟悉游戏界面</li>
+</ul>
+</section><section class="slide level2">
+<h1>炮弹与甲车</h1>
+<ul>
+<li>轻坦（LT）|中坦（MT）|重坦（HE）</li>
+<li>火炮（SPG）|坦歼（TD）</li>
+</ul>
+</section><section class="slide level2">
+<h1>炮弹与伤害</h1>
+<ul>
+<li>穿甲弹（AP） <small>如果穿甲弹能够命中目标且击穿装甲，就能够造成其数据中写的所有伤害，而且会伤害成员，损坏坦克的部件。但是，如果穿甲弹没有击穿装甲，或者形成跳弹，则不会对目标造成任何伤害。</small></li>
+</ul>
+<ul>
+<li>钨芯穿甲弹（APCR） <small>穿甲厚度比穿甲弹高，但造成的伤害与普通穿甲弹相同，速度比穿甲弹快。</small></li>
+</ul>
+<ul>
+<li>高爆榴弹（HE） <small>伤害值一般很高，但它的穿甲厚度也很小。即便是它没有击穿目标的装甲，它也会给目标以一定的伤害，伤害值与火炮的型号有关。如果它击穿目标的装甲，则会在对方内部爆炸，会造成非常可怕的后果，额外伤害值高，也会同时杀伤乘员、损坏部件。高爆榴弹还有溅射伤害，但伤害半径不一样，对于坦克来说很小，对于自行火炮来说伤害半径则很大。</small></li>
+</ul>
+<ul>
+<li>破甲弹（HEAT） <small>比高爆榴弹的穿甲厚度要大，使用方式与穿甲弹相同，破甲弹必须直接命中目标才能对其造成伤害，比穿透装甲后的高爆榴弹所造成的伤害值要低。</small></li>
+</ul>
+</section><section class="slide level2">
+<h1>击穿机制</h1>
+<ul>
+<li>等效装甲</li>
+<li>70度强制跳蛋</li>
+<li>三倍口径强制穿</li>
+</ul>
+<ul>
+<li class="fragment">击中车体</li>
+<li class="fragment">黑洞装甲和间隙装甲（HE/HEAT履带吸收伤害）</li>
+</ul>
+</section><section class="slide level2">
+<h1>击毁机制</h1>
+<ul>
+<li class="fragment">血量</li>
+<li class="fragment">爆弹药架与起火</li>
+</ul>
+</section></section>
+<section><section class="titleslide slide level1"><h1>野队战术</h1></section><section class="slide level2">
+<h1>初阶</h1>
+<ul>
+<li class="fragment">CQC|断腿|抗线|伸缩|卖头|卖履带|骗炮|卡点|防火炮</li>
+<li class="fragment">平推|绕后|集火|扛炮|偷炮|拉炮线|黑枪</li>
+</ul>
+</section><section class="slide level2">
+<h1>高阶</h1>
+<ul>
+<li class="fragment">点亮|盲射|转场|黑枪|卡点|路费</li>
+</ul>
+</section></section>
+<section><section id="v7" class="titleslide slide level1"><h1>7V7战术</h1></section><section class="slide level2">
+<h1>并没有玩过（逃）</h1>
+</section></section>
+<section><section class="titleslide slide level1"><h1>成为大神</h1></section><section id="section" class="slide level2">
+<h1></h1>
+<ul>
+<li class="fragment">多看火风、B梦直播</li>
+<li class="fragment">多思考</li>
+</ul>
+</section></section>
+<section><section class="titleslide slide level1"><h1>结束</h1></section></section>
+    </div>
+  </div>
+
+  <script src="WOT_files/reveal.js-3.3.0/lib/js/head.min.js"></script>
+  <script src="WOT_files/reveal.js-3.3.0/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display the page number of the current slide
+        slideNumber: true,
+        // Push each slide change to the browser history
+        history: true,
+        // Vertical centering of slides
+        center: true,
+        // Opens links in an iframe preview overlay
+        previewLinks: true,
+        // Transition style
+        transition: 'convex', // none/fade/slide/convex/concave/zoom
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'WOT_files/reveal.js-3.3.0/plugin/notes/notes.js', async: true },
+          { src: 'WOT_files/reveal.js-3.3.0/plugin/search/search.js', async: true },
+          { src: 'WOT_files/reveal.js-3.3.0/plugin/zoom-js/zoom.js', async: true },
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>
