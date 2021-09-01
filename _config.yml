@@ -18,13 +18,13 @@ highlighter: rouge
 title : Verne in GitHub
 tagline: Heal the World
 image: https://lh5.googleusercontent.com/-hnukhkmD--I/V4m8XAu5yCI/AAAAAAABAAE/M4l0oJTVFoIOZoY4hSG7-rgFwbgym5H5wCL0B/w512-h439-no/IMG_20160715_125428.jpg
-repo_url: https://github.com/einverne/einverne.github.io
+repo_url: https://github.com/anghust/anghust.github.io
 author :
-  name : Ein Verne
-  email : git@einverne.info
-  google : EinVerne
-  github : einverne
-  twitter : einverne
+  name : 一夫
+  email : NA
+  google : NA
+  github : anghust
+  twitter : NA
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -35,7 +35,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : https://einverne.github.io
+production_url : https://anghust.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -93,7 +93,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : einvernegithubio
+      short_name : anghustgithubio
     livefyre :
       site_id : 123
     intensedebate :
