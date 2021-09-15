@@ -5,7 +5,7 @@ tagline: ""
 description: "本站之初衷"
 category: Jekyll
 tags: []
-last_updated: 2021-09-07
+last_updated: 2021-09-15
 ---
 
 本站之初衷为记录我于电脑之使用，记录成篇，篇成站。
@@ -27,6 +27,7 @@ last_updated: 2021-09-07
 	3. 操作流程
   + 超链接
   + 参考文献
+  + 适应多尺寸屏幕
 
 ## 方案选择
 
