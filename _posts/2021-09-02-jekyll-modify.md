@@ -2,7 +2,7 @@
 layout: post
 title: "Windows更新后自动重启"
 description: "Windows更新后自动重启"
-rategory: Jekyll
+category: Jekyll
 tags: [jekyll, rankfile]
 ---
 
