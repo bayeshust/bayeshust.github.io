@@ -10,9 +10,9 @@ last_updated: 2021-09-29
 犹记得当初视频获取之便利。今日互联网，能看到视频但不能下载。
 提供视频解析服务的网站/软件
 
-[硕鼠](flycd.com)
+[硕鼠](https://www.flycd.com)
 
-[b站（网页版）](bilibili.iiilab.com)
+[b站（网页版）](https://bilibili.iiilab.com)
 
 IDM、迅雷等下载工具捕获
 
