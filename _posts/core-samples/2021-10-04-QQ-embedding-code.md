@@ -13,4 +13,4 @@ last_updated: 2021-10-04
 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1768279826&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:1768279826:51" alt="点击这里给我发QQ消息" title="点击这里给我发QQ消息"/></a>
 </div>
 
-[![Foo](images/button_QQ.gif)](http://wpa.qq.com/msgrd?v=3&uin=1768279826&site=qq&menu=yes)
+[<img src="images/button_QQ.gif">](http://wpa.qq.com/msgrd?v=3&uin=1768279826&site=qq&menu=yes)
