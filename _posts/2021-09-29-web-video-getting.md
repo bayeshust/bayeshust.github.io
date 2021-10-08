@@ -77,7 +77,7 @@ Video Download Helper是两大Web浏览器Chrome、Firefox都有的扩展（exte
 
 Video Download Helper需要额外从Github上下载[支持程序](https://github.com/mi-g/vdhcoapp/releases/download/v1.6.3/VdhCoAppSetup-1.6.3.exe)。作者表示使用ffmpeg合并.ts文件。ffmepg中对h264的编码也使用了VLC所用x264来编码（Encode）[^3rd]，但是我做了一个测试，两种方法结果不同。Video Download Helper（下图左）生成质量不如VLC。
 
-另外，为了延长SSD使用寿命，更改Video Download Helper的保存目录（Firefox）：
+另外，为了延长SSD使用寿命，更改Video Download Helper的保存目录（Firefox、支持中文目录）：
 
 [管理扩展](moz-extension://cb6bb43e-d417-44fe-94f6-64e2fe7738c4/content/settings.html?panel=settings)->Behavor->Default download directory->Change->Save
 
