@@ -19,6 +19,7 @@ module JB
   class Path
     SOURCE = "."
     Paths = {
+	# 服务器文件系统路径->Path类属性
       :layouts => "_layouts",
       :themes => "_includes/themes",
       :theme_assets => "assets/themes",
@@ -46,11 +47,12 @@ desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
   abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
   title = ENV["title"] || "new-post"
-  # 新增用来接收category和description参数
+  # TODO: 新增用来接收category和description参数
   tags = ENV["tags"] || "[]"
   category = ENV["category"] || ""
   category = "\"#{category.gsub(/-/,' ')}\"" if !category.empty?
-  # 新增用来将汉字转换成拼音，因为url好像不支持中文。当然在文件顶部require了Hz2py
+  # TODO: 新增用来将汉字转换成拼音
+  # 因为url好像不支持中文。当然在文件顶部require了Hz2py
   slug = Hz2py.do(title, :join_with => '-', :to_simplified => true)
   
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
