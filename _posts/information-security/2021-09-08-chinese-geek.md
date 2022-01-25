@@ -2,12 +2,12 @@
 layout: post
 tagline: ""
 title: "信息安全名人"
-description: "知名黑客"
+description: "知名人物"
 category: 信息安全
 tags: []
 last_updated: 2022-01-25
 ---
-# 2010新编中国顶级黑客圈内人物[^first][^2nd]
+### 2010新编中国顶级安全圈内人物[^first][^2nd]
 
 在下面这些人中很多人手握众多危害极大的未公开漏洞。就是圈内所称的0day。这类危害极大的0day一般在黑市上可以卖的数十万人民币。
 
