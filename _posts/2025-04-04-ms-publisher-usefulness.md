@@ -65,7 +65,7 @@ You're organizing a conference or workshop and need to print 100 personalized na
 ## Why Microsoft Publisher Is Perfect for This
 ### Step-by-step Workflow
 1. Prepare Your Data
-	+ Create an Excel spreadsheet:
+- Create an Excel spreadsheet:
 
 | First Name | Last Name | Title       | Company        | QR Code Image Path         |
 |------------|-----------|-------------|----------------|----------------------------|
@@ -73,25 +73,25 @@ You're organizing a conference or workshop and need to print 100 personalized na
 | Bob        | Smith     | Manager     | DataWorks      | C:\QR\bob_qr.png           |
 
 2. Open Publisher & Choose Template
-	+ Go to File > New > Name Badges
-	+ Choose a template or start with a blank badge layout.
+- Go to File > New > Name Badges
+- Choose a template or start with a blank badge layout.
 
 3. Insert Design Elements
-	+ Insert a logo, background color, or shapes for styling.
-	+ Add text placeholders for name, title, and company.
-	+ Use Insert > Picture Placeholder to mark where QR codes will go.
+- Insert a logo, background color, or shapes for styling.
+- Add text placeholders for name, title, and company.
+- Use Insert > Picture Placeholder to mark where QR codes will go.
 
 4. Start Mail Merge
-	+ Go to Mailings > Select Recipients > Use Existing List
-	+ Load your Excel file.
-	+ Insert merge fields like <<First Name>> <<Last Name>>, <<Title>>, etc.
+- Go to Mailings > Select Recipients > Use Existing List
+- Load your Excel file.
+- Insert merge fields like <<First Name>> <<Last Name>>, <<Title>>, etc.
 
 5. Add Image Merge Field (QR Code)
-	+ Use Insert > Picture > Linked Picture and insert the <<QR Code Image Path>> field.
+- Use Insert > Picture > Linked Picture and insert the <<QR Code Image Path>> field.
 
 6. Preview & Finish
-	+ Use Mailings > Preview Results to see how each badge looks.
-	+ Click Finish & Merge > Print or Export to PDF for professional printing.
+- Use Mailings > Preview Results to see how each badge looks.
+- Click Finish & Merge > Print or Export to PDF for professional printing.
 
 ### 📌 Why Not Use Word?
 
