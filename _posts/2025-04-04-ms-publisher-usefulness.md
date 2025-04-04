@@ -7,6 +7,17 @@ category:
 tags: [软件生态位, ]
 last_updated: 2025-04-04
 ---
+# 使用体会
++ 邮件合并制作标签，排版比word强，比如用文本框防溢出功能自动设字体的大小行距等，当然自动调整的位置上下限不一致
++ 制作小册子（一摞A4纸订起来，一张纸的一半是一页）很好用
++ 图片文字环绕功能比word强，可以在所有环绕模式下移动图片，可以调整环绕区域
++ 特色的产品种类页面，似乎与邮件合并类似
++ 可以自由设定参考线
++ 可以像flash一样输入部件的坐标和长宽，word只能输入长宽
++ 构建基块（block）里面的栏拉伸不会形变，相当于把纹理填充到区域
++ 打印标签可以多种一页，一种一页
++ 可以检查有没有排版图片什么的溢出了
++ 图片占位符可以轻松交换图片、可以事先安排图片位置
 # 💡 Strengths
 
 * Ease of Use: Very beginner-friendly. Ideal for non-designers.
@@ -44,6 +55,8 @@ last_updated: 2025-04-04
 | **Laying out newsletters with multiple columns and image wraps** | Publisher handles **complex layouts** better and more intuitively than Word. |
 | **Creating printable calendars or menus** | Templates and layout options in Publisher make these far easier than in Word. |
 
+## ✅ Tasks Better in Publisher than Word
+
 | Task                                             | Why Publisher Wins                                                                 |
 |--------------------------------------------------|------------------------------------------------------------------------------------|
 | **Quick design of simple marketing materials (flyers, coupons, invites)** | Publisher is **faster and easier** for beginners or non-designers—no need for complex setup or style sheets. |
@@ -56,11 +69,11 @@ last_updated: 2025-04-04
 # Example Task: Creating Personalized Event Name Badges with Mail Merge
 ## Scenario
 You're organizing a conference or workshop and need to print 100 personalized name badges, each with:
-+ Attendee’s full name
++ Attendee's full name
 + Job title
 + Company name
 + QR code for check-in
-+ Your event’s branding (logo, background)
++ Your event's branding (logo, background)
 
 ## Why Microsoft Publisher Is Perfect for This
 ### Step-by-step Workflow
@@ -95,7 +108,7 @@ You're organizing a conference or workshop and need to print 100 personalized na
 
 ### 📌 Why Not Use Word?
 
-1. Manual layouting is painful—text and images jump around.
+1. Images layouting is painful—text and images jump around.
 2. No built-in image mail merge without scripting or workarounds.
 3. Harder to precisely align multiple badges on one page.
 
