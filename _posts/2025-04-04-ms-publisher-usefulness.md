@@ -55,7 +55,7 @@ last_updated: 2025-04-04
 | **Laying out newsletters with multiple columns and image wraps** | Publisher handles **complex layouts** better and more intuitively than Word. |
 | **Creating printable calendars or menus** | Templates and layout options in Publisher make these far easier than in Word. |
 
-## ✅ Tasks Better in Publisher than Word
+## ✅ Tasks Better in Publisher than Indesign
 
 | Task                                             | Why Publisher Wins                                                                 |
 |--------------------------------------------------|------------------------------------------------------------------------------------|
@@ -109,7 +109,7 @@ You're organizing a conference or workshop and need to print 100 personalized na
 ### 📌 Why Not Use Word?
 
 1. Images layouting is painful—text and images jump around.
-2. No built-in image mail merge without scripting or workarounds.
+2. No built-in **image mail merge** without scripting or workarounds.
 3. Harder to precisely align multiple badges on one page.
 
 ### 📌 Why Not Use InDesign?
