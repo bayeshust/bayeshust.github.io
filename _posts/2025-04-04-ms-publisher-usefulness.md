@@ -21,7 +21,7 @@ last_updated: 2025-04-04
 * File format compatibility: .pub file format is not widely supported.->Keep a backup of source files
 * Not ideal for books: Unlike Word, Publisher doesn't support section-based formatting or deep document structure e.g., footnotes, table of contents (TOC) navigation.
 
-# VS InDesign/Word
+# v.s. InDesign/Word
 
 | Feature               | Publisher         | Word             | Adobe InDesign      |
 |-----------------------|-------------------|------------------|---------------------|
